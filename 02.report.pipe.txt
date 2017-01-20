@@ -1,0 +1,21 @@
+nguyenhongson@nguyenhongson-S451LN:~$ find /home/nguyenhongson -type f -print | grep 'list'
+/home/nguyenhongson/.mozilla/firefox/0d5qrp22.default/blocklist.xml
+/home/nguyenhongson/.local/share/zeitgeist/fts.index/termlist.baseA
+/home/nguyenhongson/.local/share/zeitgeist/fts.index/postlist.DB
+/home/nguyenhongson/.local/share/zeitgeist/fts.index/postlist.baseA
+/home/nguyenhongson/.local/share/zeitgeist/fts.index/postlist.baseB
+/home/nguyenhongson/.local/share/zeitgeist/fts.index/termlist.DB
+/home/nguyenhongson/.local/share/zeitgeist/fts.index/termlist.baseB
+nguyenhongson@nguyenhongson-S451LN:~$ wc -l /etc/passwd
+40 /etc/passwd
+nguyenhongson@nguyenhongson-S451LN:~$ free
+              total        used        free      shared  buff/cache   available
+Mem:        3927324     1036892     1936312      157912      954120     2476228
+Swap:       8387580           0     8387580
+nguyenhongson@nguyenhongson-S451LN:~$ cat /proc/cpuinfo | grep "siblings"
+siblings	: 4
+siblings	: 4
+siblings	: 4
+siblings	: 4
+nguyenhongson@nguyenhongson-S451LN:~$ cd Desktop | find -name *.jpg|wc -l
+0
