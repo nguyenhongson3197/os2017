@@ -1,0 +1,11 @@
+son@son-S451LN:~$ cat /proc/sched_debug|grep "systemd"
+         systemd  3212        14.719570        11   120         2.516622        19.331080    111424.693505 0 0 /autogroup-93
+  systemd-logind  2659         5.567773       413   120        24.924372        38.065671   1366170.353018 0 0 /autogroup-57
+         systemd     1       235.066437      1641   120        62.177483      1710.487012   1409160.437500 0 0 /autogroup-2
+   systemd-udevd   967      2674.046965       856   120        61.817038      1003.038870   1316531.078255 0 0 /autogroup-11
+ systemd-journal   947        39.579034       713   120        26.494776       177.836592   1405343.675446 0 0 /autogroup-9
+ systemd-timesyn  2421         0.581433        40   120         0.175051        11.104747   1313220.526506 0 0 /autogroup-31
+son@son-S451LN:~$ cat /proc/1/sched | grep "switches"
+nr_switches                                  :                 1644
+nr_voluntary_switches                        :                 1176
+nr_involuntary_switches                      :                  468
