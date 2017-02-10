@@ -1,0 +1,8 @@
+son@son-S451LN:~$ ps -e|grep 'firefox'
+ 3783 ?        00:06:06 firefox
+son@son-S451LN:~$ ps -o nlwp 3783
+NLWP
+  47
+son@son-S451LN:~$ ls /proc/3783/task | wc -w
+47
+son@son-S451LN:~$ 
