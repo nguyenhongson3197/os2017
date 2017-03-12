@@ -57,6 +57,7 @@
 +     printf("\nAfter consumed once:\n");
 +     consume();
 +     log_val();
+}
 +void *consume_thread(void *param) {
 +     printf("after consumed 1:");
 +     consume();
