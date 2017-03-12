@@ -41,7 +41,7 @@
 +     item_x.amount = 0;
 +     item_x.unit = '1';
 +
-+     printf("\Producing item x: type=%c amount=%d unit=%c\n",item_x.type,item_x.amount,item_x.unit);
++     printf("Producing item x: type=%c amount=%d unit=%c\n",item_x.type,item_x.amount,item_x.unit);
 +     produce(&item_x);
 +     log_val();
 +
@@ -50,7 +50,7 @@
 +     item_y.amount = 1;
 +     item_y.unit = '0';
 +
-+     printf("\Producing item y: type=%c amount=%d unit=%c\n",item_y.type,item_y.amount,item_y.unit);
++     printf("Producing item y: type=%c amount=%d unit=%c\n",item_y.type,item_y.amount,item_y.unit);
 +     produce(&item_y);
 +     log_val();
 +     
